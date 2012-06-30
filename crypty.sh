@@ -5,11 +5,11 @@
 # 
 #         USAGE:  ./crypty.sh 
 # 
-#   DESCRIPTION:  
+#   DESCRIPTION: just a proof of concept for encrypting some files.Easy to use interface.
 # 
 #       OPTIONS:  ---
-#  REQUIREMENTS:  ---
-#          BUGS:  ---
+#  REQUIREMENTS:  banner(for decoration)(*evil grin*)
+#          BUGS:  please report if any.
 #         NOTES:  ---
 #        AUTHOR:  |Vinit Kumar| (), |vinitcool76@gmail.com|
 #       COMPANY:  
