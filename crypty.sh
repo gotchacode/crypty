@@ -1,9 +1,9 @@
 #!/bin/bash
 #===============================================================================
 #
-#          FILE:  passwd:protect.sh
+#          FILE:  crypty.sh
 # 
-#         USAGE:  ./passwdprotect.sh 
+#         USAGE:  ./crypty.sh 
 # 
 #   DESCRIPTION:  
 # 
