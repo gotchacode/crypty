@@ -18,7 +18,7 @@
 #      REVISION:  ---
 #===============================================================================
 
-if [ -f "stuff_encrpted.tar.gz" ]; then 
+if [ -f "stuff_encrypted.tar.gz" ]; then 
 	rm -rf stuff_encrypted.tar.gz
 fi 
 
