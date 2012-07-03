@@ -31,7 +31,7 @@ echo -n "$password" | md5sum | awk '{print $1}'| md5sum | awk '{print $1}'
 function cryptdir {
 
 echo "Enter the directory you want to crypt"
-read direc
+read -e direc
 tar cfz stuff.tar.gz $direc
 openssl enc -in stuff.tar.gz -aes-256-cbc -e > stuff_encrypted.tar.gz
 echo "The encripted file is stuff_encrypted.tar.gz"
