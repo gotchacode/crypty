@@ -17,7 +17,7 @@
 #       CREATED:  Saturday 30 June 2012 11:12:03  IST IST
 #      REVISION:  ---
 #===============================================================================
-
+BAD_CHOICE=87
 if [ -f "stuff_encrypted.tar.gz" ]; then 
 	rm -rf stuff_encrypted.tar.gz
 fi 
@@ -64,7 +64,7 @@ read choice
 case $choice in 
 	1) crypt=1;;
 	2) crypt=0;;
-	*) echo "Wrong Choice";;
+	*) echo "Wrong Choice" && exit $BAD_CHOICE;;
 
 esac
 
