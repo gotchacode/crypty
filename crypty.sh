@@ -18,13 +18,7 @@
 #      REVISION:  ---
 #===============================================================================
 BAD_CHOICE=87
-if [ -f "stuff_encrypted.tar.gz" ]; then 
-	rm -rf stuff_encrypted.tar.gz
-fi 
-
-if [ -f "stuff_decrypted.tar.gz" ]; then
-       rm -rf stuff_decrypted.tar.gz
-fi        
+   
 
 function passwordgen {
 echo "Enter a password you can remember"
