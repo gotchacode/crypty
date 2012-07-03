@@ -40,7 +40,7 @@ echo "The encripted file is stuff_encrypted.tar.gz"
 function decryptdir {
 
 echo "Name of the encrypted file to decrypt"
-read file
+read -e file
 openssl enc -in $file -aes-256-cbc -d > stuff_decrypted.tar.gz
 echo "Now opening the decripted file "
 tar -xvf stuff_decrypted.tar.gz
