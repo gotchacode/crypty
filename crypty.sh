@@ -28,7 +28,7 @@ fi
 
 function passwordgen {
 echo "Enter a password you can remember"
-read password
+read -s password
 echo "Copy and paste the generated password---This password is not important for you to remember,Remember your original password"
 echo -n "$password" | md5sum | awk '{print $1}'| md5sum | awk '{print $1}'
 
