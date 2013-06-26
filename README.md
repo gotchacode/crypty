@@ -1,9 +1,9 @@
 Crypty
 ======
 
-Just a proof of concept for encrypting some files.Easy to use interface.
+Just a proof of concept for encrypting some files. Easy to use interface.
 
-Easy to use and pretty safe way to encrypt and decrypt sensitive stuff, without undergoing much of trouble.
+Easy to use and a pretty safe way to encrypt and decrypt sensitive stuff without undergoing much trouble.
 
 To use
 ------
