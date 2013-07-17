@@ -23,7 +23,7 @@ It can be used to create encrypted tar-balls. It has a really simple working. Ju
 
 This small utility offers you a 256-bit encryption with password hashing and no password is stored anywhere.
 
-**Warning: This does not used a very high level of encryption but could be used to keep files safe.**
+**Warning: This tool does not use a very high level of encryption, still could be used to keep files safe.**
 
 
 
