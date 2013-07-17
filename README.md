@@ -7,7 +7,7 @@ Fairly simple straightforward encryption utility for your bash/zsh shell.
 
 In order to install crypty:
 
-```
+```bash
 $ git clone https://github.com/vinitcool76/crypty.git && sudo cp crypty/crypty.sh ~/bin/crypty && sudo chmod u+x ~/bin/crypty
 ```
 ### Use
