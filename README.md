@@ -15,9 +15,7 @@ $ git clone https://github.com/vinitcool76/crypty.git && sudo cp crypty/crypty.s
 Run
 `$ crypty`
 
-and follow easy to the instructions.
-Also, in order to get familiar with the working, test crypty on the 
-`test` directory provided in the repository.
+and follow easy to use instructions.Also, in order to get familiar with the working, test crypty on the `test` directory provided in the repository.
 
 It can be used to create encrypted tar-balls. It has a really simple working. Just enter the directory you want to encrypt and it will encrypt it for you. The encrypted tar-ball could only be decrypted using the same password you use to encrypt it. So in all case remember your password.
 
